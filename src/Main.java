@@ -94,5 +94,43 @@ public class Main {
 //        int reminder = num % divider;
 //
 //        System.out.println("num=" + reminder * 10 + num2);
+
+//        double num1 = 4.0;
+//        double num2 = 2.0;
+//        double result = BigDecimal.valueOf(num1).divide(BigDecimal.valueOf(num2)).doubleValue();
+//        System.out.println(result);
+
+
+//        int[] arr = {4000, 3000, 2000, 1000};
+//        int max = arr[0];
+//        int min = arr[1];
+//        int sum = 0;
+//        int maxcount=0;
+//        int mincount=0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (max < arr[i]) {
+//
+//                max = arr[i];
+////                max = 0;
+//            }
+//        }
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            if (min > arr[i]) {
+//                min = arr[i];
+////                min = 0;
+//            }
+//        }
+//
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] == max) {
+//                maxcount++;
+//            }
+//            if (arr[i] == min) {
+//                mincount++;
+//            }
+//        }
+//        System.out.println("sum=" + sum);
     }
 }
