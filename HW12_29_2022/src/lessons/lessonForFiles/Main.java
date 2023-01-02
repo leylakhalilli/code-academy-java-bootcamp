@@ -9,9 +9,9 @@ public class Main {
     public static void main(String[] args) {
         File fileFolder = new File("D:\\Desktop\\JAVA");
 
-//        System.getProperties().forEach((key, value) -> System.out.println(key + " " + value));
+        System.getProperties().forEach((key, value) -> System.out.println(key + " " + value));
 
-        test("Java");
+//        test("Java");
 //        findFiles(fileFolder, "Java");
 
 
